@@ -1,3 +1,4 @@
 <h1>Home#index</h1>
-<%= link_to 'Signin with Google', user_omniauth_authorize_path(:google) %>
+<%= link_to 'Signin with Google', user_google_omniauth_authorize_path(:google) %>
 
+<%= current_user.inspect %>
